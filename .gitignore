@@ -1,24 +1,18 @@
-.env
-
-env/
-etl /__pycache__
-logs/__pycache__
-Data.json
-logs/add *.log# Environment & secrets
+# Secrets and virtual environment
 .env
 env/
 
 # Python cache
-etl/__pycache__/
-logs/__pycache__/
+__pycache__/
 *.py[cod]
 
 # Logs
 logs/
 *.log
 
-# Data files
+# Generated weather data
 Data.json
+new_data.json
 
 # OS-specific junk
 .DS_Store
