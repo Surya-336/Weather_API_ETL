@@ -8,7 +8,8 @@ logs/__pycache__/
 *.py[cod]
 
 # Logs
-logs/
+logs/*
+!logs/log.py
 *.log
 
 # Generated weather data
