@@ -1,0 +1,25 @@
+.env
+
+env/
+etl /__pycache__
+logs/__pycache__
+Data.json
+logs/add *.log# Environment & secrets
+.env
+env/
+
+# Python cache
+etl/__pycache__/
+logs/__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# Data files
+Data.json
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
