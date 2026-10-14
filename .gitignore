@@ -3,7 +3,8 @@
 env/
 
 # Python cache
-__pycache__/
+etl/__pycache__/
+logs/__pycache__/
 *.py[cod]
 
 # Logs
@@ -13,6 +14,8 @@ logs/
 # Generated weather data
 Data.json
 new_data.json
+weather_City.csv
+weather_City.json
 
 # OS-specific junk
 .DS_Store
